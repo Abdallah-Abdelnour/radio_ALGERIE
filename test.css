@@ -1,0 +1,63 @@
+
+/*****************************************/
+#audio_player_two{
+    /* display: none; */
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#040243;
+}
+#audio_player_two main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(21, 2, 230);
+    overflow-y: scroll;
+}
+/*****************************************/
+#audio_player_two header{
+    border: solid 1px red;
+    width: 100%;
+    height: 150px;
+    background: wheat;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    position: fixed;
+}
+#audio_player_two nav img{
+    margin-top: -50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#audio_player_two nav{
+    transform: translateY(50px);
+    height:50px;
+}
+#audio_player_two nav h2{
+    font-size: 30px;
+    margin-top: -5px;
+}
+#audio_player_two nav p{
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+#audio_player_two .wilayat{
+    margin-left:20px;
+    padding-top: 165px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 92px 92px 92px;
+    grid-template-rows: repeat(16,80px);
+    gap: 10px;
+}
+#audio_player_two .wilayat h3,a{
+    background-color: #040243;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+}
